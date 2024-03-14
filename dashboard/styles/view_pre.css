@@ -1,0 +1,27 @@
+.view_revenue_main_heading_temp {
+    margin-top: 0rem !important;
+}
+
+.create_visit_input_main_container {
+    margin-left: 1em;
+}
+
+#advice_txt {
+    margin-top: 1em;
+    color: black;
+    border: 1px solid #dbdbdb;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+#view_revenue_container {
+    margin-top: 2em;
+}
+
+#patient_miss_behaive_container {
+    margin-top: 0;
+    box-shadow: none;
+}

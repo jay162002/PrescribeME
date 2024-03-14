@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+
+:root {
+    scroll-behavior: smooth;
+    /*COLORS*/
+    --primary_color: #357a2b;
+    --secondery_color: #089226;
+    --tertery_color: #E1EBFB;
+    /*TEXTCOLORS*/
+    --black_color: #000;
+    --black_secondery: #aeaeae;
+    --black_tertery: #dbdbdb;
+    --white_color: #fff;
+    /*TRANSTIOTAION*/
+    --three_transition: all 0.3s ease;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Inter', sans-serif;
+    
+    background: url(../img/sign_in_bg_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* ############################################################################### */
+
+.error_container p{
+    font-size: 22px;
+    padding: 20px;
+    color: #3D3C42;
+}
+
+.first_word{
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 0.3rem;
+    margin-left: 1.3rem;
+}
+
+.error_container{
+    border: 2px solid #FF6969;
+    background: #FF6969;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.error_container .cross{
+    margin-left: 15px;
+    color: #3D3C42;
+    font-weight: bold;
+    font-size: 3rem;
+    float: right;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 1.3rem;
+    margin-right: 2.5rem;
+}
+
+.error_container .cross:hover{
+    color: #000;
+}
+
+/* .alert {
+    padding: 20px;
+    background: #fff;
+    color: #000;
+    border: 2px solid #fff;
+  } */
+  
+  /* The close button */
+  /* .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  /* .closebtn:hover {
+    color: black;
+  } */ 
+
+
+
+/* ############################################################################### */
+
+/* !success container */
+.error_container_success p{
+    font-size: 22px;
+    padding: 20px;
+    /* color: #3D3C42; */
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.first_word{
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 0.3rem;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+}
+
+.error_container_success{
+    border: 2px solid #60c7a1;
+    background: #60c7a1;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 10px !important;
+    margin: auto;
+}
+
+.error_container_success .cross{
+    /* margin-left: 15px; */
+    color: #3D3C42;
+    font-weight: bold;
+    font-size: 4rem;
+    float: right;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 0.7rem;
+    margin-right: 1.5rem;
+}
+
+.error_container_success .cross:hover{
+    color: #000;
+}
+
+
+
+.main_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 1200px;
+    width: 1200px;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.left_container{
+    float: left;
+    width: 60%;
+    background: #f7f7f7e3;
+    
+}
+
+.right_container{
+    float: right;
+    width: 40%;
+    /* height: 100%; */
+}
+
+.main_container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* ################################################## */
+
+.left_container .left_img{
+    width: 100%;
+}
+
+.left_container h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+    margin-top: 2.7rem;
+}
+
+.left_container p{
+    color: #888888;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.9rem;
+    margin-left: 3.1rem;
+    margin-top: 1rem;
+
+}
+
+.left_container img{
+    margin: 3rem 0;
+}
+
+.left_container .gradient_container{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(181.07deg, rgba(255, 255, 255, 0) -54.09%, rgba(143, 205, 157, 0.5) 96.34%);
+    text-align: right;
+}
+
+.gradient_container a{ 
+    display: block; 
+    color: #089226;
+    font-weight: 400;
+    font-size: 1.8rem;
+    padding-top: 3.5rem;
+    padding-right: 3rem;
+}
+
+
+/* ############################################ */
+
+.header_signin{
+    margin: 2em 0;
+}
+
+.header_signin h2{
+    font-weight: 400;
+    font-size: 3.8rem;
+    color: #000;
+}
+
+.header_signin p{
+    color: #929292;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 0.5em;
+}
+
+.right_container form{
+    margin: 2em 4em;
+}
+
+.signin_email_container{
+    margin-bottom: 2em;
+}
+
+.signin_email_container label{
+    font-weight: 400;
+    font-size: 2rem;
+    display: block;
+    text-align: left;
+}
+
+.signin_password_container label{
+    font-weight: 400;
+    font-size: 2rem;
+    display: block;
+    text-align: left;
+}
+
+.right_container .input_box{
+    width: 100%;
+    background-color: #F4F4F480;
+    padding: 0.8em 0.4em;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.6rem;
+}
+
+
+.forgot_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5em;
+    
+}
+
+.remember_me input{
+    color: #888888;
+    font-weight: 400;
+    width: 15px;
+    height: 15px;
+    background: #FFFFFF;
+    border: 1px solid #888888;
+    border-radius: 5px;
+}
+
+.remember_me label{
+    color: #888888;
+    font-weight: 400;
+    font-size: 1.7rem;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.forgot_container a{
+    font-weight: 400;
+    color: #089226;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+
+.right_container #sign_in_btn{
+    margin-top: 1.7em;
+    width: 100%;
+    background: #089226;
+    height: 38px;
+    border-radius: 10px;
+    font-size: 2.1rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.role_container{
+    margin-top: 3.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right_container .role_btn{
+    border: 1px solid #089226;
+    border-radius: 10px;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.role_btn{
+    color: #000;
+}
+
+.right_container #main_btn{
+    background: #089226;
+    color: #fff;
+}
+
+.logo_png{
+    margin: 0.7rem 2rem;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+@media screen and (max-width:1200px) {
+    .dashboard_main_container {
+        left: 190px;
+        width: calc(100vw - 190px);
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    .dashboard_table tbody td:nth-child(2),
+    .dashboard_table thead tr td:nth-child(2) {
+        width: 100px;
+    }
+
+
+}
