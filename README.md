@@ -17,4 +17,4 @@ To ensure the database is properly configured before executing the code, please 
 ## Screenshots
 
 ### Doctor's Dashboard
-![Doctor's Dashboard](temp/doctor_dashboard .png)
+![Doctor's Dashboard](Temp/doctor_dashboard .png)
