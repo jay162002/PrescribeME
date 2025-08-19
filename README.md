@@ -19,3 +19,15 @@ To ensure the database is properly configured before executing the code, please 
 ### Doctor's Dashboard
 ![Doctor's Dashboard](Temp/doctor_dashboard.png)
 
+### Receptionist's Dashboard
+![Receptionist's Dashboard](Temp/receptionist_dashboard.png)
+
+### Pharmacist's Dashboard
+![Pharmacist's Dashboard](Temp/Pharmacist_dashboard.png)
+
+### Payment Page
+![Payment Page](Temp/payment_page.png)
+
+### Revenue Page
+![Revenue Page](Temp/Revenue_page.png)
+
