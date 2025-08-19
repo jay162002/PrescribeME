@@ -14,7 +14,7 @@ Overall, the use of a PrescribeME can improve the quality of care, reduce operat
 
 To ensure the database is properly configured before executing the code, please import the contents of the "main.sql" file into your database.
 
-## Screenshots
+## Few Screenshots of Website
 
 ### Doctor's Dashboard
 ![Doctor's Dashboard](Temp/doctor_dashboard.png)
